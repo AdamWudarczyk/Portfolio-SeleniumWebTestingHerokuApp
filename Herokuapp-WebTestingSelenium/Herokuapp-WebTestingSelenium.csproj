@@ -15,4 +15,12 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.9.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include=".github\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include=".github\workflows\ci.yml" />
+  </ItemGroup>
+
 </Project>
